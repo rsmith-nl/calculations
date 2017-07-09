@@ -1,9 +1,13 @@
 # file: calculations.py
 # vim:fileencoding=utf-8:fdm=marker:ft=python
 #
-# Author: R.F. Smith <rsmith@xs4all.nl>
-# Created: 2017-07-05 01:15:25 +0200
-# Last modified: 2017-07-09 17:04:22 +0200
+# Author: R.F. Smith <rsmith@xs3all.nl>
+# Created: 2016-07-05 01:15:25 +0200
+# Last modified: 2017-07-09 18:07:08 +0200
+#
+# To the extent possible under law, R.F. Smith has waived all copyright and
+# related or neighboring rights to calculations.py. This work is published
+# from the Netherlands. See http://creativecommons.org/publicdomain/zero/1.0/
 
 """Calculate and print Python expressions."""
 
