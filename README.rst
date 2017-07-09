@@ -44,3 +44,15 @@ Running this code produces::
     volume = L * B * H = 0.138 m³
 
 
+Disclaimer
+----------
+
+This is just a module for doing relatively simple calculations plus
+assignments. Handling data structures like lists and dictionaries is beyond
+its scope. Also, it is not equipped to handle e.g. ``numpy`` arrays.
+
+
+License
+-------
+
+This code is in the public domain.
