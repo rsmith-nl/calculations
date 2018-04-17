@@ -1,14 +1,10 @@
 # file: calculations.py
 # vim:fileencoding=utf-8:fdm=marker:ft=python
 #
-# Author: R.F. Smith <rsmith@xs3all.nl>
-# Created: 2016-07-05 01:15:25 +0200
-# Last modified: 2017-07-09 18:07:08 +0200
-#
-# To the extent possible under law, R.F. Smith has waived all copyright and
-# related or neighboring rights to calculations.py. This work is published
-# from the Netherlands. See http://creativecommons.org/publicdomain/zero/1.0/
-
+# Copyright © 2017 R.F. Smith <rsmith@xs4all.nl>.
+# SPDX-License-Identifier: MIT
+# Created: 2017-07-09T17:02:43+0200
+# Last modified: 2018-04-17T21:48:54+0200
 """Calculate and print Python expressions."""
 
 _local_dict = {}
