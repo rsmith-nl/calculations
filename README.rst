@@ -4,8 +4,8 @@ The calculations module
 Introduction
 ------------
 
-I wrote this function to be able to both perform calculations in Python *and*
-print the results. Existing tools do not easily let you do that.
+I wrote this function to be able to both perform calculations in Python 3.6+
+*and* print the results. Existing tools do not easily let you do that.
 Spreadsheets display results but not the formula. And interactive shells like
 IPython let me do calculations but if I assign the result to a variable I have
 to perform an extra action to show it.
