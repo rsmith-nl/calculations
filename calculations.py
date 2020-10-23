@@ -10,7 +10,7 @@
 _local_dict = {}
 
 
-def do(expr, comment='', loc=_local_dict):
+def do(expr, comment="", loc=_local_dict):
     """Process and print an assignment expression plus its result.
 
     Arguments:
@@ -24,13 +24,13 @@ def do(expr, comment='', loc=_local_dict):
     newkeys = after - before
     n = len(newkeys)
     if n == 0:
-        raise ValueError('not an assignment')
+        raise ValueError("not an assignment")
     elif n > 1:
-        raise ValueError('multiple assignemt')
+        raise ValueError("multiple assignemt")
     try:
-        v = float(expr.split('=')[1])
+        v = float(expr.split("=")[1])
         del v
-        print(f'{expr} {comment}')
+        print(f"{expr} {comment}")
     except ValueError:
         k = newkeys.pop()
-        print(f'{expr} = {loc[k]:.4g} {comment}')
+        print(f"{expr} = {loc[k]:.4g} {comment}")

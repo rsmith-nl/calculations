@@ -11,11 +11,12 @@ try:
 except ImportError:
     import sys
     import os
+
     # This is a hack to enable the import to work
     sys.path[0] = os.path.dirname(sys.path[0])
     from calculations import do
 
-do('L = 1.2', 'm')
-do('B = 0.5', 'm')
-do('H = 0.23', 'm')
-do('volume = L * B * H', 'm³')
+do("L = 1.2", "m")
+do("B = 0.5", "m")
+do("H = 0.23", "m")
+do("volume = L * B * H", "m³")
