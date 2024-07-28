@@ -1,10 +1,10 @@
-# file: calculations.py
+# file: calc.py
 # vim:fileencoding=utf-8:fdm=marker:ft=python
 #
 # Copyright © 2017 R.F. Smith <rsmith@xs4all.nl>.
 # SPDX-License-Identifier: MIT
 # Created: 2017-07-09T17:02:43+0200
-# Last modified: 2018-07-08T10:42:19+0200
+# Last modified: 2024-07-28T18:24:16+0200
 """Calculate and print Python expressions."""
 
 _local_dict = {}
@@ -12,6 +12,9 @@ _local_dict = {}
 
 def do(expr, comment="", loc=_local_dict):
     """Process and print an assignment expression plus its result.
+
+    Note that this function uses “exec”, so it should *not* be fed
+    untrusted input.
 
     Arguments:
         expr: Assignment expression to print.
